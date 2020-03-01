@@ -96,7 +96,7 @@ public class LinkedList<T> {
         return count;
     }
     
-    // listemdeki en b�y�k eleman
+    // max elemen of list
     T maxElement(){
       Node<T> temp = head;
       T max = temp.nextNode.data;
